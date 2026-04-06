@@ -69,7 +69,7 @@ export default async function globalTeardown() {
 async function sendTestResults(results) {
   try {
     const response = await fetch(
-      "https://edugen-backend-487d2168bc6c.herokuapp.com/projectLog/",
+      "https://kaizu-api-8cd10af40cb3.herokuapp.com/projectLog",
       {
         method: "POST",
         headers: {
